@@ -1,3 +1,8 @@
 *.txt
 *.exe
 *.log
+<<<<<<< HEAD
+=======
+*.com
+*.so
+>>>>>>> 9ca57f7b5f4a4d5cbbeeea3df0cd81114ceae3d2
