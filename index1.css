@@ -1,0 +1,166 @@
+.tab1 {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  width: 25%;
+  height:auto;
+}
+.tab1 button {
+  display: block;
+  background-color:#2b90db;
+  color:#fff;
+  padding: 7px 19px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 15px;
+  margin-bottom: 1px;
+}
+.tab1 button:hover {
+  background-color:#1591F8;
+}
+.tab1 button.active {background-color: #fff;color: #e67817;font-weight: 600;}
+.tabcontent1 {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 75%;
+  height: auto;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s; margin-bottom: 5px;
+}
+.accordion:hover{color: #fff;}
+.active, .accordion:hover {
+  background-color: #2c94df;color: #fff;
+}
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.accordion:after:hover {
+  color: #fff;
+ }
+.active:after {
+  content: "\2212";
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.acc-cs{width: auto;height: auto;float: left; margin-right:46px; margin-bottom: 20px;}
+.acc-cs1{width: auto;height: auto;float:left; margin-bottom: 20px;}
+.da-cs{width: auto;height: 180px;float: left;margin-right:46px;margin-bottom: 87px;}
+.da-cs1{width: auto;height: 180px;/*float:right;*/margin-bottom: 87px;}
+.isro{width: 400px;height: 250px;float: left;margin-right:10px; margin-bottom: 30px;}
+.isro1{width: 400px;height: 250px;float:right;margin-bottom: 30px;}
+.right-enquiry{width: 100%;height: auto;padding: 20px;background-color: #fff;border: none;}
+.branch-name{width: 100%;height: auto;text-align: center;float: left;margin-top: 30px;}
+.branch-name h1{font-size: 42px;}
+.is-img{width: 836px;height:400px;margin-top: 20px;margin-bottom: 20px;}
+.acc-ise{width: 100%;height: auto;float: left;}
+.tab2 {
+    float: left;
+    background-color: #f1f1f1;
+    width: 25%;
+    height: auto;
+}
+.branch-heading h1{font-size: 22px;
+    color: #2c93de;
+    font-weight: 600;
+    margin-bottom: 20px;margin-top: 20px;}
+
+
+.borderboxe {
+    width: 157.5%;
+    height: auto;
+    background-color: rgb(250,150,0);
+    border: 1px solid #cccccc;
+    margin-top: 10px;color: #fff;
+}
+#drop-box{width:64%; padding:0px 10px 10px 15px;}
+
+
+.submenu {
+			margin-bottom: 0.5em;
+			display: none;
+		}
+
+.difbox{width: 100%; height: 77px; margin-top: 10px;}
+.difbox img{float: left; margin-right: 40px;}
+
+
+
+.nwa{
+	width:100%;
+	height:auto;
+	float: left;
+}
+#provm{width: 100%; padding: 10px;    font-family: "Montserrat", sans-serif;}
+#provm{ margin-left: 0px;
+    color: #444;
+    font-weight: 500;margin-top: 6px;
+    font-size: 15px;}
+
+#provm:hover{background-color: #2c94df; color:#ffffff;}
+.menutitle1:hover{background-color: #2c94df; color:#ffffff;}
+#drop-boxvm{width: 62.5%;}
+.menutitle1 {
+			cursor:pointer;
+			margin-bottom:10px; margin-left:10px;
+			color:#000000;
+			width:96%;font-size:14px;
+			padding:2px;
+			padding-left:10px;
+			text-align:left;
+			font-weight:500;
+		    padding-top: 8px;
+	height: 43px;
+    padding-bottom: 0px;background-color: #eee
+		}
+.borderboxe {
+    width: 157.5%;
+    height: auto;
+    background-color: rgb(250,150,0);
+    border: 1px solid #cccccc;
+    margin-top: 10px;color: #fff;
+}
+
+/*consultancy services*/
+.borderbox{width: 155%;padding: 5px;
+    height: auto;    margin-left: -4px;
+
+    background-color: rgb(57, 113, 182);
+   /* border: 2px solid #3971b6;*/
+    margin-top: 10px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+
+}
+.borderbox p{font-family: 'calibri', sans-serif;font-weight:normal; font-size:16px; text-align:justify; color:#000; margin-top: 0px;font-weight: bold;}
+.cinta{ color:#000000; /*text-transform:uppercase; */font-weight:normal; font-size:16px;}
+.cinta sup{ font-size:7px; font-weight:bold;}
+.constext{font-family: 'calibri', sans-serif;font-weight:normal; font-size:16px; text-align:justify; margin-top:-20px; padding-right:15px; padding-left:10px; }
+.th-bg{background: #169b48;
+	color: #fff;}
+#ov{
+		    color: #e67817;
+}
